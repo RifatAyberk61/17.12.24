@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburger</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<script>
+
+</script>
+<body>
+   <header>
+      <a href="index.html"><img src="menu-06.jpg" id="logo"></a>
+      <div id="afis"></div>
+      <div class="kutu1">
+         <div onmouseover="resmiGoster1()">Menü-1</div>
+         <div onmouseover="resmiGoster2()">Menü-2</div>
+         <div onmouseover="resmiGoster3()">Menü-3</div>
+      </div>
+   </header>
+<nav>
+   <ul>
+      <li><a href="index.html">Ana Sayfa</a></li>
+      <li><a href="urunler.html">Ürünler</a></li>
+      <li><a href="iletisim.html">İletişim</a></li>  
+   </ul>
+</nav>
+
+<main>
+   <h1>Tanıtım Filmleri</h1>
+</main>
+
+</body>
+
+<script>
+function resmiGoster1()
+{
+   document.getElementById("afis").style.backgroundImage="url(menu-03.jpg)"
+}
+function resmiGoster2()
+{
+   document.getElementById("afis").style.backgroundImage="url(menu-01.jpg)"
+}
+function resmiGoster3()
+{
+   document.getElementById("afis").style.backgroundImage="url(menu-02.jpg)"
+}
+</script>
+
+</html>
